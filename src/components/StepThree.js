@@ -1,6 +1,6 @@
 import React from "react";
 
-const StepTwo = (props) => {
+const StepThree = (props) => {
     return (
         <>
         <header>
@@ -32,21 +32,28 @@ const StepTwo = (props) => {
         <hr></hr>
         <form>
             <div className='form-group'>
-                <label for='fname'>
-                Full name
+                <label className='label' for='fname'>
+                Payment type
                 </label>
-                <input className='center' type='text' name= 'fname'/>
+                <button className='payment-btn'>
+                    <img className='hundred' src='visa.png'/>
+                </button>
+                <button className='payment-btn'>
+                    <img className='hundred' src='mastercard.png'/>
+                </button>
+                <button className='payment-btn'>
+                    <img className='hundred' src='paypal.png'/>
+                </button>
             </div>
             <div className='form-group'>
-                <label for='country'>
-                Country
+                <label for='credit-card'>
+                Credit Card #
                 </label>
-                <select>
-                  <option value="india">India</option>
-                  <option value="usa">USA</option>
-                  <option value="uk">UK</option>
-                  <option value="france">France</option>
-                </select>
+                <input width="48" />
+                <label>
+                    CVV
+                </label>
+                <input width='12'/>
             </div>
             <div className='form-group'>
                 <label className='label' for='gender'>
@@ -70,7 +77,7 @@ const StepTwo = (props) => {
         <hr></hr>
         <footer>
             <div>
-                Step 2 of 3
+                Step 3 of 3
             </div>
             <div>
                 <a href='#'>cancel</a>
@@ -82,4 +89,4 @@ const StepTwo = (props) => {
     )
 }
 
-export default StepTwo;
+export default StepThree;

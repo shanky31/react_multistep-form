@@ -1,6 +1,7 @@
 import React from 'react';
 import StepOne from './StepOne'
 import StepTwo from './StepTwo'
+import StepThree from './StepThree'
 
 const Main =(props)=> {
     return (
@@ -8,6 +9,7 @@ const Main =(props)=> {
         <div className='main'>
             <StepOne />
             <StepTwo />
+            <StepThree />
         </div>
         
         </>

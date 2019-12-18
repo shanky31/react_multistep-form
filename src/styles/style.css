@@ -5,6 +5,7 @@
     margin-top: 5rem;
     margin-bottom: 5rem;
     background:#F2F2F0;
+    box-shadow: 3px 3px 5px 6px #ccc;
 }
 header {
     display: flex;
@@ -102,4 +103,38 @@ footer {
 }
 select {
     margin-left: 2rem;
+}
+.about {
+    display: flex;
+    align-items: top;
+}
+textarea {
+    margin-left: 1rem ;
+}
+.textarea-bottom {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.html {
+    margin-left: 2.5rem;
+}
+.para {
+    margin-right: 1rem;
+}
+.margin-2 {
+    margin-left: 1rem;
+}
+.label {
+    margin-right: 2rem;
+}
+.hundred {
+    width: 100%;
+}
+.payment-btn{
+    margin-left: 1rem ;
+    border: none;
+}
+label {
+    color:gray;
 }
